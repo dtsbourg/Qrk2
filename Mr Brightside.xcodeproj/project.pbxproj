@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC8221E5186111F1005A41A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC8221E4186111F1005A41A9 /* Foundation.framework */; };
+		FC8221E7186111F1005A41A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC8221E6186111F1005A41A9 /* CoreGraphics.framework */; };
+		FC8221E9186111F1005A41A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC8221E8186111F1005A41A9 /* UIKit.framework */; };
+		FC8221EF186111F1005A41A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC8221ED186111F1005A41A9 /* InfoPlist.strings */; };
+		FC8221F1186111F1005A41A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8221F0186111F1005A41A9 /* main.m */; };
+		FC8221F5186111F1005A41A9 /* MBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8221F4186111F1005A41A9 /* MBAppDelegate.m */; };
+		FC8221F8186111F1005A41A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8221F6186111F1005A41A9 /* Main.storyboard */; };
+		FC8221FB186111F1005A41A9 /* MBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8221FA186111F1005A41A9 /* MBViewController.m */; };
+		FC8221FD186111F1005A41A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC8221FC186111F1005A41A9 /* Images.xcassets */; };
+		FC822204186111F1005A41A9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC822203186111F1005A41A9 /* XCTest.framework */; };
+		FC822205186111F1005A41A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC8221E4186111F1005A41A9 /* Foundation.framework */; };
+		FC822206186111F1005A41A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC8221E8186111F1005A41A9 /* UIKit.framework */; };
+		FC82220E186111F1005A41A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC82220C186111F1005A41A9 /* InfoPlist.strings */; };
+		FC822210186111F1005A41A9 /* Mr_BrightsideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC82220F186111F1005A41A9 /* Mr_BrightsideTests.m */; };
+		FC82221A18611322005A41A9 /* highway-to-hipster-dream.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC82221918611322005A41A9 /* highway-to-hipster-dream.jpg */; };
+		FCE1287018611B5F00813963 /* icon-ios7-play.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE1286F18611B5F00813963 /* icon-ios7-play.png */; };
+		FCE1287A1861314300813963 /* icon-ios7-contact-outline.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE128711861314300813963 /* icon-ios7-contact-outline.png */; };
+		FCE1287B1861314300813963 /* icon-chatbubble-working.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE128721861314300813963 /* icon-chatbubble-working.png */; };
+		FCE1287C1861314300813963 /* icon-ios7-chatboxes.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE128731861314300813963 /* icon-ios7-chatboxes.png */; };
+		FCE1287D1861314300813963 /* icon-ios7-paperplane.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE128741861314300813963 /* icon-ios7-paperplane.png */; };
+		FCE1287E1861314300813963 /* icon-at.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE128751861314300813963 /* icon-at.png */; };
+		FCE1287F1861314300813963 /* icon-ios7-pause.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE128761861314300813963 /* icon-ios7-pause.png */; };
+		FCE128801861314300813963 /* icon-social-twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE128771861314300813963 /* icon-social-twitter.png */; };
+		FCE128811861314300813963 /* icon-social-tumblr.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE128781861314300813963 /* icon-social-tumblr.png */; };
+		FCE128821861314300813963 /* icon-social-facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE128791861314300813963 /* icon-social-facebook.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC822207186111F1005A41A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC8221D9186111F0005A41A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC8221E0186111F1005A41A9;
+			remoteInfo = "Mr Brightside";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC8221E1186111F1005A41A9 /* Mr Brightside.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mr Brightside.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC8221E4186111F1005A41A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC8221E6186111F1005A41A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC8221E8186111F1005A41A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC8221EC186111F1005A41A9 /* Mr Brightside-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mr Brightside-Info.plist"; sourceTree = "<group>"; };
+		FC8221EE186111F1005A41A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC8221F0186111F1005A41A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC8221F2186111F1005A41A9 /* Mr Brightside-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mr Brightside-Prefix.pch"; sourceTree = "<group>"; };
+		FC8221F3186111F1005A41A9 /* MBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBAppDelegate.h; sourceTree = "<group>"; };
+		FC8221F4186111F1005A41A9 /* MBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBAppDelegate.m; sourceTree = "<group>"; };
+		FC8221F7186111F1005A41A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC8221F9186111F1005A41A9 /* MBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBViewController.h; sourceTree = "<group>"; };
+		FC8221FA186111F1005A41A9 /* MBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBViewController.m; sourceTree = "<group>"; };
+		FC8221FC186111F1005A41A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC822202186111F1005A41A9 /* Mr BrightsideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mr BrightsideTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC822203186111F1005A41A9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FC82220B186111F1005A41A9 /* Mr BrightsideTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mr BrightsideTests-Info.plist"; sourceTree = "<group>"; };
+		FC82220D186111F1005A41A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC82220F186111F1005A41A9 /* Mr_BrightsideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mr_BrightsideTests.m; sourceTree = "<group>"; };
+		FC82221918611322005A41A9 /* highway-to-hipster-dream.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "highway-to-hipster-dream.jpg"; sourceTree = "<group>"; };
+		FCE1286F18611B5F00813963 /* icon-ios7-play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ios7-play.png"; sourceTree = "<group>"; };
+		FCE128711861314300813963 /* icon-ios7-contact-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ios7-contact-outline.png"; sourceTree = "<group>"; };
+		FCE128721861314300813963 /* icon-chatbubble-working.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-chatbubble-working.png"; sourceTree = "<group>"; };
+		FCE128731861314300813963 /* icon-ios7-chatboxes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ios7-chatboxes.png"; sourceTree = "<group>"; };
+		FCE128741861314300813963 /* icon-ios7-paperplane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ios7-paperplane.png"; sourceTree = "<group>"; };
+		FCE128751861314300813963 /* icon-at.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-at.png"; sourceTree = "<group>"; };
+		FCE128761861314300813963 /* icon-ios7-pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ios7-pause.png"; sourceTree = "<group>"; };
+		FCE128771861314300813963 /* icon-social-twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-social-twitter.png"; sourceTree = "<group>"; };
+		FCE128781861314300813963 /* icon-social-tumblr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-social-tumblr.png"; sourceTree = "<group>"; };
+		FCE128791861314300813963 /* icon-social-facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-social-facebook.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC8221DE186111F1005A41A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8221E7186111F1005A41A9 /* CoreGraphics.framework in Frameworks */,
+				FC8221E9186111F1005A41A9 /* UIKit.framework in Frameworks */,
+				FC8221E5186111F1005A41A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8221FF186111F1005A41A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC822204186111F1005A41A9 /* XCTest.framework in Frameworks */,
+				FC822206186111F1005A41A9 /* UIKit.framework in Frameworks */,
+				FC822205186111F1005A41A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC8221D8186111F0005A41A9 = {
+			isa = PBXGroup;
+			children = (
+				FC8221EA186111F1005A41A9 /* Mr Brightside */,
+				FC822209186111F1005A41A9 /* Mr BrightsideTests */,
+				FC8221E3186111F1005A41A9 /* Frameworks */,
+				FC8221E2186111F1005A41A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC8221E2186111F1005A41A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC8221E1186111F1005A41A9 /* Mr Brightside.app */,
+				FC822202186111F1005A41A9 /* Mr BrightsideTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC8221E3186111F1005A41A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC8221E4186111F1005A41A9 /* Foundation.framework */,
+				FC8221E6186111F1005A41A9 /* CoreGraphics.framework */,
+				FC8221E8186111F1005A41A9 /* UIKit.framework */,
+				FC822203186111F1005A41A9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC8221EA186111F1005A41A9 /* Mr Brightside */ = {
+			isa = PBXGroup;
+			children = (
+				FC8221F3186111F1005A41A9 /* MBAppDelegate.h */,
+				FC8221F4186111F1005A41A9 /* MBAppDelegate.m */,
+				FC8221F6186111F1005A41A9 /* Main.storyboard */,
+				FC8221F9186111F1005A41A9 /* MBViewController.h */,
+				FC8221FA186111F1005A41A9 /* MBViewController.m */,
+				FC8221FC186111F1005A41A9 /* Images.xcassets */,
+				FCE1286F18611B5F00813963 /* icon-ios7-play.png */,
+				FCE128711861314300813963 /* icon-ios7-contact-outline.png */,
+				FCE128721861314300813963 /* icon-chatbubble-working.png */,
+				FCE128731861314300813963 /* icon-ios7-chatboxes.png */,
+				FCE128741861314300813963 /* icon-ios7-paperplane.png */,
+				FCE128751861314300813963 /* icon-at.png */,
+				FCE128761861314300813963 /* icon-ios7-pause.png */,
+				FCE128771861314300813963 /* icon-social-twitter.png */,
+				FCE128781861314300813963 /* icon-social-tumblr.png */,
+				FCE128791861314300813963 /* icon-social-facebook.png */,
+				FC82221918611322005A41A9 /* highway-to-hipster-dream.jpg */,
+				FC8221EB186111F1005A41A9 /* Supporting Files */,
+			);
+			path = "Mr Brightside";
+			sourceTree = "<group>";
+		};
+		FC8221EB186111F1005A41A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC8221EC186111F1005A41A9 /* Mr Brightside-Info.plist */,
+				FC8221ED186111F1005A41A9 /* InfoPlist.strings */,
+				FC8221F0186111F1005A41A9 /* main.m */,
+				FC8221F2186111F1005A41A9 /* Mr Brightside-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC822209186111F1005A41A9 /* Mr BrightsideTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC82220F186111F1005A41A9 /* Mr_BrightsideTests.m */,
+				FC82220A186111F1005A41A9 /* Supporting Files */,
+			);
+			path = "Mr BrightsideTests";
+			sourceTree = "<group>";
+		};
+		FC82220A186111F1005A41A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC82220B186111F1005A41A9 /* Mr BrightsideTests-Info.plist */,
+				FC82220C186111F1005A41A9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC8221E0186111F1005A41A9 /* Mr Brightside */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC822213186111F1005A41A9 /* Build configuration list for PBXNativeTarget "Mr Brightside" */;
+			buildPhases = (
+				FC8221DD186111F1005A41A9 /* Sources */,
+				FC8221DE186111F1005A41A9 /* Frameworks */,
+				FC8221DF186111F1005A41A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mr Brightside";
+			productName = "Mr Brightside";
+			productReference = FC8221E1186111F1005A41A9 /* Mr Brightside.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC822201186111F1005A41A9 /* Mr BrightsideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC822216186111F1005A41A9 /* Build configuration list for PBXNativeTarget "Mr BrightsideTests" */;
+			buildPhases = (
+				FC8221FE186111F1005A41A9 /* Sources */,
+				FC8221FF186111F1005A41A9 /* Frameworks */,
+				FC822200186111F1005A41A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC822208186111F1005A41A9 /* PBXTargetDependency */,
+			);
+			name = "Mr BrightsideTests";
+			productName = "Mr BrightsideTests";
+			productReference = FC822202186111F1005A41A9 /* Mr BrightsideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC8221D9186111F0005A41A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MB;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Dylan Bourgeois";
+				TargetAttributes = {
+					FC822201186111F1005A41A9 = {
+						TestTargetID = FC8221E0186111F1005A41A9;
+					};
+				};
+			};
+			buildConfigurationList = FC8221DC186111F0005A41A9 /* Build configuration list for PBXProject "Mr Brightside" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC8221D8186111F0005A41A9;
+			productRefGroup = FC8221E2186111F1005A41A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC8221E0186111F1005A41A9 /* Mr Brightside */,
+				FC822201186111F1005A41A9 /* Mr BrightsideTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC8221DF186111F1005A41A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE1287C1861314300813963 /* icon-ios7-chatboxes.png in Resources */,
+				FCE1287018611B5F00813963 /* icon-ios7-play.png in Resources */,
+				FC8221FD186111F1005A41A9 /* Images.xcassets in Resources */,
+				FCE1287F1861314300813963 /* icon-ios7-pause.png in Resources */,
+				FC8221EF186111F1005A41A9 /* InfoPlist.strings in Resources */,
+				FC82221A18611322005A41A9 /* highway-to-hipster-dream.jpg in Resources */,
+				FCE1287E1861314300813963 /* icon-at.png in Resources */,
+				FCE128811861314300813963 /* icon-social-tumblr.png in Resources */,
+				FCE128801861314300813963 /* icon-social-twitter.png in Resources */,
+				FCE128821861314300813963 /* icon-social-facebook.png in Resources */,
+				FCE1287B1861314300813963 /* icon-chatbubble-working.png in Resources */,
+				FCE1287A1861314300813963 /* icon-ios7-contact-outline.png in Resources */,
+				FC8221F8186111F1005A41A9 /* Main.storyboard in Resources */,
+				FCE1287D1861314300813963 /* icon-ios7-paperplane.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC822200186111F1005A41A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC82220E186111F1005A41A9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC8221DD186111F1005A41A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8221F1186111F1005A41A9 /* main.m in Sources */,
+				FC8221FB186111F1005A41A9 /* MBViewController.m in Sources */,
+				FC8221F5186111F1005A41A9 /* MBAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8221FE186111F1005A41A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC822210186111F1005A41A9 /* Mr_BrightsideTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC822208186111F1005A41A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC8221E0186111F1005A41A9 /* Mr Brightside */;
+			targetProxy = FC822207186111F1005A41A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC8221ED186111F1005A41A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC8221EE186111F1005A41A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC8221F6186111F1005A41A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC8221F7186111F1005A41A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC82220C186111F1005A41A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC82220D186111F1005A41A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC822211186111F1005A41A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC822212186111F1005A41A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC822214186111F1005A41A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mr Brightside/Mr Brightside-Prefix.pch";
+				INFOPLIST_FILE = "Mr Brightside/Mr Brightside-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC822215186111F1005A41A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mr Brightside/Mr Brightside-Prefix.pch";
+				INFOPLIST_FILE = "Mr Brightside/Mr Brightside-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FC822217186111F1005A41A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mr Brightside.app/Mr Brightside";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mr Brightside/Mr Brightside-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Mr BrightsideTests/Mr BrightsideTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FC822218186111F1005A41A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mr Brightside.app/Mr Brightside";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mr Brightside/Mr Brightside-Prefix.pch";
+				INFOPLIST_FILE = "Mr BrightsideTests/Mr BrightsideTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC8221DC186111F0005A41A9 /* Build configuration list for PBXProject "Mr Brightside" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC822211186111F1005A41A9 /* Debug */,
+				FC822212186111F1005A41A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC822213186111F1005A41A9 /* Build configuration list for PBXNativeTarget "Mr Brightside" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC822214186111F1005A41A9 /* Debug */,
+				FC822215186111F1005A41A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC822216186111F1005A41A9 /* Build configuration list for PBXNativeTarget "Mr BrightsideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC822217186111F1005A41A9 /* Debug */,
+				FC822218186111F1005A41A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC8221D9186111F0005A41A9 /* Project object */;
+}
